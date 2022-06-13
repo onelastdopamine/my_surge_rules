@@ -16,7 +16,6 @@ DOMAIN-KEYWORD,wanfangdata,Direct
 DOMAIN-KEYWORD,cnki.net,Direct
 
 [General]
-skip-proxy = %APPEND% *.kdocs.cn
 ipv6 = true
 geoip-maxmind-url = https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
 http-api-web-dashboard = true
