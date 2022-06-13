@@ -1,16 +1,3 @@
 #!name=我的附加规则
 #!desc=my_rules
 
-[Rule]
-PROCESS-NAME,Mail,DIRECT
-DOMAIN-SUFFIX,okexa.com,US
-DOMAIN-SUFFIX,scholarscope.online,DIRECT
-DOMAIN-SUFFIX,yinfans.net,DIRECT
-DOMAIN-SUFFIX,jasp-stats.org,DIRECT
-DOMAIN-SUFFIX,clinicalkey.com,Scholar
-DOMAIN-SUFFIX,jamanetwork.com,Scholar
-DOMAIN-SUFFIX,0daydown.com,DIRECT
-DOMAIN-SUFFIX,macxin.com,DIRECT
-DOMAIN-SUFFIX,iospress.com,Scholar
-DOMAIN-KEYWORD,wanfangdata,Direct
-DOMAIN-KEYWORD,cnki.net,Direct
