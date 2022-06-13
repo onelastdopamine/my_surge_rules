@@ -1,7 +1,6 @@
 #!name=我的附加规则
 #!desc=my_rules
 
-
 [General]
 skip-proxy = %APPEND% *.kdocs.cn
 always-real-ip = %APPEND% *.kdocs.cn
@@ -10,7 +9,6 @@ ipv6 = true
 geoip-maxmind-url = https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
 http-api-web-dashboard = true
 wifi-assist = true
-
 
 [Rule]
 PROCESS-NAME,Mail,DIRECT
