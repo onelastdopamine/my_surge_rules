@@ -1,0 +1,23 @@
+#!name=附加规则
+#!desc=myrules
+
+[Rule]
+PROCESS-NAME,Mail,DIRECT
+DOMAIN-SUFFIX,okexa.com,US
+DOMAIN-SUFFIX,scholarscope.online,DIRECT
+DOMAIN-SUFFIX,yinfans.net,DIRECT
+DOMAIN-SUFFIX,jasp-stats.org,DIRECT
+DOMAIN-SUFFIX,clinicalkey.com,Scholar
+DOMAIN-SUFFIX,jamanetwork.com,Scholar
+DOMAIN-SUFFIX,0daydown.com,DIRECT
+DOMAIN-SUFFIX,macxin.com,DIRECT
+DOMAIN-SUFFIX,iospress.com,Scholar
+DOMAIN-KEYWORD,wanfangdata,Direct
+DOMAIN-KEYWORD,cnki.net,Direct
+
+[General]
+geoip-maxmind-url = https://cdn.jsdelivr.net/gh/Hackl0us/GeoIP2-CN@release/Country.mmdb
+wifi-assist = true
+ipv6-vif = auto
+[MITM]
+h2=true
